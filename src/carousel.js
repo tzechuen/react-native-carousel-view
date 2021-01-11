@@ -100,6 +100,7 @@ export default class Carousel extends Component {
     this.children = Children.toArray(children).filter((child) => child);
   }
 
+  // eslint-disable-next-line
   UNSAFE_componentWillReceiveProps(nextProps: Props) {
     this._filterChildren();
 
